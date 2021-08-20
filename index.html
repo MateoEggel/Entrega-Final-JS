@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="./index.js"></script>
+
+
+    <title>Tienda</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark  bg-warning">
+        <h1>Hamburguesas McTeo</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+    </nav>
+
+    <div class="container">
+        <div class="row">
+           
+           
+            </div>
+            <div class="col 2 ">
+                <button id="btnResumen" type="button" class="btn btn-primary btn-lg pull-righ">Resumen</button>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+
+
+
+    <div id="pantalla_0">
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <h1 class="text-center">BIENVENIDOS A MCTEO</h1>
+            <br>
+            <br>
+            <br>
+            <div class="container">
+                <button id="btnIngresar" type="button" class="btn btn-primary btn-lg btn-block">Ingresar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------- -->
+    <div id="pantalla_1">
+        <h2 class="text-center">Hamburguesas</h2>
+        <div class="container">
+            <div class="items">
+                <div id="pantalla_1_items" class="row">
+                </div>
+                <div class="container">
+                    <button id="btnHamburguesa" type="button" class="btn btn-primary btn-lg btn-block">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------- -->
+    <div id="pantalla_2">
+        <h2 class="text-center">Complementos</h2>
+        <div class="container">
+            <div class="items">
+                <div id="pantalla_2_items" class="row">
+                </div>
+                <div class="container">
+                    <button id="btnComplementos" type="button" class="btn btn-primary btn-lg btn-block">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------- -->
+
+    <div id="pantalla_3">
+        <h2 class="text-center">Bebidas</h2>
+        <div class="container">
+            <div class="items">
+                <div id="pantalla_3_items" class="row">
+                </div>
+                <div class="container">
+                    <button id="btnBebidas" type="button" class="btn btn-primary btn-lg btn-block">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ....................... -->
+    <div id="pantalla_4">
+        <h2 class="text-center">Aderezos</h2>
+        <div class="container">
+            <div class="items">
+                <div id="pantalla_4_items" class="row">
+                </div>
+                <div class="container">
+                    <button id="btnAderezos" type="button" class="btn btn-primary btn-lg btn-block">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- .......................... -->
+
+    <div id="pantalla_5">
+
+
+        <h2 class="text-center">Resumen</h2>
+        <div id="pantalla_5_hamburguesa" class="container">
+        </div>
+        <div id="pantalla_5_complementos" class="container">
+        </div>
+        <div id="pantalla_5_bebidas" class="container">
+        </div>
+        <div id="pantalla_5_aderezos" class="container">
+        </div>
+        <div id="pantalla_5_resultado" class="container">
+        </div>
+
+        <div class="container">
+            <button id="btnConfirmar" type="button" class="btn btn-primary btn-lg btn-block">Confirmar pedido</button>
+
+
+        </div>
+    </div>
+
+    <!-- ----------------- -->
+    <div id="pantalla_6">
+            <br>
+            <br>
+            <br>
+        <h1 class="text-center">GRACIAS POR SU COMPRA</h1>
+        <br>
+        <br>
+        <div class="container">
+            <div class="items">
+                <div id="pantalla_6" class="row">
+                </div>
+                <div class="container">
+                    <button id="btnInicio" type="button" class="btn btn-primary btn-lg btn-block">Volver/Inicio</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>

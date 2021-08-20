@@ -1,0 +1,21 @@
+.img{
+    display: block;
+}
+.item-title{
+align-self: auto;
+}
+
+
+.seleccionado{
+    border-radius: 5%;
+ 
+    background-color:khaki;
+}
+
+.img{
+    
+    width: 300px;
+}
+.img-resumen{
+    width: 150px;
+}
